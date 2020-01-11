@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Magic_8_Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASK ME ANYTHING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obS-Rt-3ld">
+                                <rect key="frame" x="83.5" y="101" width="247" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball1" translatesAutoresizingMaskIntoConstraints="NO" id="Kfp-av-mWO">
+                                <rect key="frame" x="54.5" y="247" width="305" height="273"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="273" id="TLJ-Xd-YJQ"/>
+                                    <constraint firstAttribute="width" constant="305" id="giU-Sb-e1W"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEH-p3-D4t">
+                                <rect key="frame" x="151" y="684" width="112" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="ASK">
+                                    <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pzp-B0-AK0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kfp-av-mWO" firstAttribute="top" secondItem="obS-Rt-3ld" secondAttribute="bottom" constant="114.5" id="6fu-DD-hjS"/>
+                            <constraint firstItem="aEH-p3-D4t" firstAttribute="top" secondItem="Kfp-av-mWO" secondAttribute="bottom" constant="164" id="Fs8-ud-I2A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="obS-Rt-3ld" secondAttribute="trailing" constant="83.5" id="Hkw-gq-H2l"/>
+                            <constraint firstItem="Kfp-av-mWO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NdD-Ge-jBD"/>
+                            <constraint firstItem="aEH-p3-D4t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SLt-4D-frw"/>
+                            <constraint firstItem="aEH-p3-D4t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="ZGb-Ji-OLd"/>
+                            <constraint firstItem="Kfp-av-mWO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kIO-Q1-iG0"/>
+                            <constraint firstItem="obS-Rt-3ld" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="m2G-iq-EZp"/>
+                            <constraint firstItem="obS-Rt-3ld" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qAQ-vX-koS"/>
+                            <constraint firstItem="obS-Rt-3ld" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83.5" id="rdx-F1-VqB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageF" destination="Kfp-av-mWO" id="B23-M1-mNh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ball1" width="305" height="273.5"/>
+    </resources>
+</document>
