@@ -13,11 +13,15 @@ class ViewController: UIViewController {
     
     var player: AVAudioPlayer!
     
+    let delay = 0.5
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func keyPressed(_ sender: UIButton) {
+        
+        buttonAnimation(sender: sender)
         playSound(soundName: sender.currentTitle!)
     }
     
@@ -26,6 +30,13 @@ class ViewController: UIViewController {
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
         
+    }
+    
+    func buttonAnimation(sender: UIButton) {
+        sender.alpha = 0.5
+        DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
+            sender.alpha = 1
+        }
     }
 }
 
