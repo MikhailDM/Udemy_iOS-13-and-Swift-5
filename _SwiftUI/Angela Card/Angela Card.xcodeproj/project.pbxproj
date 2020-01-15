@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECC25C923CF9B3C00CAFB28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC25C823CF9B3C00CAFB28 /* AppDelegate.swift */; };
+		CECC25CB23CF9B3C00CAFB28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC25CA23CF9B3C00CAFB28 /* SceneDelegate.swift */; };
+		CECC25CD23CF9B3C00CAFB28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC25CC23CF9B3C00CAFB28 /* ContentView.swift */; };
+		CECC25CF23CF9B3E00CAFB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC25CE23CF9B3E00CAFB28 /* Assets.xcassets */; };
+		CECC25D223CF9B3E00CAFB28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC25D123CF9B3E00CAFB28 /* Preview Assets.xcassets */; };
+		CECC25D523CF9B3E00CAFB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC25D323CF9B3E00CAFB28 /* LaunchScreen.storyboard */; };
+		CECC25E123CFA11200CAFB28 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECC25E023CFA11200CAFB28 /* Pacifico-Regular.ttf */; };
+		CECC25E323CFA8D700CAFB28 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC25E223CFA8D700CAFB28 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CECC25C523CF9B3C00CAFB28 /* Angela Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angela Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC25C823CF9B3C00CAFB28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECC25CA23CF9B3C00CAFB28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CECC25CC23CF9B3C00CAFB28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CECC25CE23CF9B3E00CAFB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECC25D123CF9B3E00CAFB28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CECC25D423CF9B3E00CAFB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECC25D623CF9B3E00CAFB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECC25E023CFA11200CAFB28 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../../../../../Downloads/Pacifico-2/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		CECC25E223CFA8D700CAFB28 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECC25C223CF9B3C00CAFB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECC25BC23CF9B3C00CAFB28 = {
+			isa = PBXGroup;
+			children = (
+				CECC25C723CF9B3C00CAFB28 /* Angela Card */,
+				CECC25C623CF9B3C00CAFB28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECC25C623CF9B3C00CAFB28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECC25C523CF9B3C00CAFB28 /* Angela Card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECC25C723CF9B3C00CAFB28 /* Angela Card */ = {
+			isa = PBXGroup;
+			children = (
+				CECC25DC23CF9DC600CAFB28 /* Fonts */,
+				CECC25C823CF9B3C00CAFB28 /* AppDelegate.swift */,
+				CECC25CA23CF9B3C00CAFB28 /* SceneDelegate.swift */,
+				CECC25CC23CF9B3C00CAFB28 /* ContentView.swift */,
+				CECC25E223CFA8D700CAFB28 /* InfoView.swift */,
+				CECC25CE23CF9B3E00CAFB28 /* Assets.xcassets */,
+				CECC25D323CF9B3E00CAFB28 /* LaunchScreen.storyboard */,
+				CECC25D623CF9B3E00CAFB28 /* Info.plist */,
+				CECC25D023CF9B3E00CAFB28 /* Preview Content */,
+			);
+			path = "Angela Card";
+			sourceTree = "<group>";
+		};
+		CECC25D023CF9B3E00CAFB28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CECC25D123CF9B3E00CAFB28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CECC25DC23CF9DC600CAFB28 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CECC25E023CFA11200CAFB28 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECC25C423CF9B3C00CAFB28 /* Angela Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC25D923CF9B3E00CAFB28 /* Build configuration list for PBXNativeTarget "Angela Card" */;
+			buildPhases = (
+				CECC25C123CF9B3C00CAFB28 /* Sources */,
+				CECC25C223CF9B3C00CAFB28 /* Frameworks */,
+				CECC25C323CF9B3C00CAFB28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Angela Card";
+			productName = "Angela Card";
+			productReference = CECC25C523CF9B3C00CAFB28 /* Angela Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECC25BD23CF9B3C00CAFB28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mike Team";
+				TargetAttributes = {
+					CECC25C423CF9B3C00CAFB28 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CECC25C023CF9B3C00CAFB28 /* Build configuration list for PBXProject "Angela Card" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECC25BC23CF9B3C00CAFB28;
+			productRefGroup = CECC25C623CF9B3C00CAFB28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECC25C423CF9B3C00CAFB28 /* Angela Card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECC25C323CF9B3C00CAFB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC25D523CF9B3E00CAFB28 /* LaunchScreen.storyboard in Resources */,
+				CECC25E123CFA11200CAFB28 /* Pacifico-Regular.ttf in Resources */,
+				CECC25D223CF9B3E00CAFB28 /* Preview Assets.xcassets in Resources */,
+				CECC25CF23CF9B3E00CAFB28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECC25C123CF9B3C00CAFB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC25E323CFA8D700CAFB28 /* InfoView.swift in Sources */,
+				CECC25C923CF9B3C00CAFB28 /* AppDelegate.swift in Sources */,
+				CECC25CB23CF9B3C00CAFB28 /* SceneDelegate.swift in Sources */,
+				CECC25CD23CF9B3C00CAFB28 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CECC25D323CF9B3E00CAFB28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC25D423CF9B3E00CAFB28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECC25D723CF9B3E00CAFB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECC25D823CF9B3E00CAFB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECC25DA23CF9B3E00CAFB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Angela Card/Preview Content\"";
+				DEVELOPMENT_TEAM = BNVRX9T4P8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Angela Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.mike.Angela-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECC25DB23CF9B3E00CAFB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Angela Card/Preview Content\"";
+				DEVELOPMENT_TEAM = BNVRX9T4P8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Angela Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.mike.Angela-Card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECC25C023CF9B3C00CAFB28 /* Build configuration list for PBXProject "Angela Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC25D723CF9B3E00CAFB28 /* Debug */,
+				CECC25D823CF9B3E00CAFB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECC25D923CF9B3E00CAFB28 /* Build configuration list for PBXNativeTarget "Angela Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC25DA23CF9B3E00CAFB28 /* Debug */,
+				CECC25DB23CF9B3E00CAFB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECC25BD23CF9B3C00CAFB28 /* Project object */;
+}
