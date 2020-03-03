@@ -21,7 +21,7 @@ struct ContentView: View {
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white, lineWidth: 5))
                 Text("Mikhail Dmitriev")
-                    .font(Font.custom("Pacifico-Regular", size: 40))
+                    .font(.system(size: 25))
                     .bold()
                     .foregroundColor(.white)
                 Text("iOS Developer")
